@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva("digite um numero inteiro diferente de 5: ")
+    leia(numero)
+
+    enquanto(numero<=5){
+    escreva("o numero digitado ",numero," e menor que 5.","\n")
+    escreva("Digite outro numero: ")
+    leia(numero)
+    }
+    
+  }
+}
